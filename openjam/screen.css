@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+body {
+    background-color: #82DDB5;
+    background-image: url('img/illustration.gif'), url('img/texture.jpg');
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800px, auto;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+#nav {
+    background-color: #6B9;
+    border-bottom: 2px dashed #487;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center; word-spacing: 2em;
+}
+
+#header {
+    text-align: center;
+    margin-top: 40px;
+}
+#logo {
+    max-width: 360px;
+}
+#description, #date {
+    max-width: 220px;
+}
+.register_btn {
+    background-color: #E43;
+    border: 2px dashed #A43;
+    border-radius: 2em;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block; 
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+
+#what {
+    text-align:center;
+    background-color:green;
+    color:blue;
+    padding:  
+    
+}
+
+#why {
+    margin: 10px 400px 20px;
+    text-align:center;
+    color:blue;
+    
+    
+}
+
+#where {
+    background-image: url('img/map.gif');
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+}
+
+#when {
+    text-align:center;
+    color:white;
+    background-image: url('wires.png');
+    background-position: center 280px, left top;
+}
+
+#who {
+    padding:15px 30px;
+    background-color:white;
+    color:blue;
+    text-align:center;
+}
+
+#footer {
+}
